@@ -14,8 +14,8 @@ This is a BMI calculator made with React Native & Expo
 ### Screenshots
 
 <div>
-  <img src="https://user-images.githubusercontent.com/78493997/192034762-31524745-a131-479f-b875-43ea505386ce.png" alt="mockup of HomeScreen" width="300"/>
-  <img src="https://user-images.githubusercontent.com/78493997/192034769-97f3cdf0-9e6c-48a8-91b9-7b26a0a62e24.png" alt="mockup of ResultScreen" width="300"/>
+  <img src="https://user-images.githubusercontent.com/78493997/192041372-14753009-6566-426a-8e75-9ec5b8907369.png" alt="mockup of HomeScreen" width="300"/>
+  <img src="https://user-images.githubusercontent.com/78493997/192041389-c2919099-6376-4d8e-8f56-9cd9edf650cd.png" alt="mockup of ResultScreen" width="300"/>
 </div>
 
 ### Technologies
@@ -23,7 +23,7 @@ This is a BMI calculator made with React Native & Expo
 The following technologies were used in the construction of the project:
 
 - [Expo](https://expo.io/)
-- [React Navigation V5](https://reactnavigation.org/)
+- [React Navigation V6](https://reactnavigation.org/)
 - [Styled Components](https://styled-components.com/)
 - [Zustand](https://zustand-demo.pmnd.rs/)
 
