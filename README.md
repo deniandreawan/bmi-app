@@ -2,10 +2,10 @@
 
 ## Table of contents
 
-- [About the project](#-about-the-project)
-  - [Screenshots](#-screenshots)
-  - [Technologies](#-technologies)
-  - [How to run](#-how-to-run)
+- [About the project](#about-the-project)
+  - [Screenshots](#screenshots)
+  - [Technologies](#technologies)
+  - [How to run](#how-to-run)
 
 ## About the project
 
