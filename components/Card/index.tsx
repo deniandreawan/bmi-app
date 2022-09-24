@@ -9,7 +9,7 @@ interface Props {
   onPress?: () => void;
 }
 
-function Card({ full, children, style, onPress }: Props) {
+export function Card({ full, children, style, onPress }: Props) {
   return (
     <Wrapper onPress={onPress}>
       <Container style={style} full={full}>
@@ -18,5 +18,3 @@ function Card({ full, children, style, onPress }: Props) {
     </Wrapper>
   );
 }
-
-export default Card;

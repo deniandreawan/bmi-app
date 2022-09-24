@@ -14,8 +14,8 @@ This is a BMI calculator made with React Native & Expo
 ### Screenshots
 
 <div>
-  <img src="https://user-images.githubusercontent.com/78493997/192041372-14753009-6566-426a-8e75-9ec5b8907369.png" alt="mockup of HomeScreen" width="300"/>
-  <img src="https://user-images.githubusercontent.com/78493997/192041389-c2919099-6376-4d8e-8f56-9cd9edf650cd.png" alt="mockup of ResultScreen" width="300"/>
+  <img src="https://user-images.githubusercontent.com/78493997/192114938-d953ab72-841b-4992-b977-a467ec317a1f.png" alt="mockup of HomeScreen" width="300"/>
+  <img src="https://user-images.githubusercontent.com/78493997/192114941-5cb646b1-0008-4001-a310-d642fee19b66.png" alt="mockup of ResultScreen" width="300"/>
 </div>
 
 ### Technologies

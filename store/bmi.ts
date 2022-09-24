@@ -29,7 +29,7 @@ export const useBMI = create<BMIState>((set) => ({
   handleAddWeight: () => set(({ weight }) => ({ weight: weight + 1 })),
   handleMinusWeight: () => set(({ weight }) => ({ weight: weight - 1 })),
   handleAddAge: () => set(({ age }) => ({ age: age + 1 })),
-  handleMinusAge: () => set(({ age }) => ({ age: age + 1 })),
+  handleMinusAge: () => set(({ age }) => ({ age: age - 1 })),
   setBmi: (weight, height) => {
     return calcBMI(weight, cmToMeter(height));
   },

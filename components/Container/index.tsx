@@ -1,12 +1,9 @@
-import * as React from "react";
-import { View } from "./styles";
+import styled from "styled-components/native";
 
-interface Props {
-  children: React.ReactNode;
-}
-
-function Container({ children }: Props) {
-  return <View>{children}</View>;
-}
-
-export default Container;
+export const Container = styled.ScrollView.attrs({
+  contentContainerStyle: {
+    padding: 20,
+  },
+})`
+  flex: 1;
+`;

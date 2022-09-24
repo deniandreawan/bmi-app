@@ -8,12 +8,10 @@ interface Props {
   style?: StyleProp<TouchableOpacityProps>;
 }
 
-function Modifier({ type, onPress, style }: Props) {
+export function Modifier({ type, onPress, style }: Props) {
   return (
     <Container style={style} onPress={onPress}>
       <Icon name={type} />
     </Container>
   );
 }
-
-export default Modifier;
