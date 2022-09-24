@@ -6,13 +6,13 @@ export const CalculateButton = styled.TouchableOpacity`
   justify-content: center;
   align-items: center;
   height: 68px;
-  margin: 20px;
+  margin: 0 20px 20px 20px;
   border-radius: 10px;
 `;
 
 export const CalculateButtonText = styled.Text`
   text-transform: uppercase;
-  font-weight: bold;
+  font-family: "Poppins_700Bold";
   font-size: 20px;
   color: ${colors.primaryDark};
 `;

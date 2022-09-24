@@ -1,1 +1,2 @@
-export { default as colors } from "./colors";
+export { colors } from "./colors";
+export { isAndroid, isIos } from "./screen";

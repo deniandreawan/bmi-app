@@ -1,14 +1,20 @@
-import { Wrapper, Container, Button, Card, Modifier } from "../../components";
+import {
+  Wrapper,
+  Container,
+  Button,
+  Card,
+  Modifier,
+  Section,
+  Range,
+} from "../../components";
 import { RootStackScreenProps } from "../../types";
 import { useBMI } from "../../store/bmi";
 import {
-  Section,
   Label,
   GenderMaleIcon,
   GenderFemaleIcon,
   H1,
   H6,
-  Range,
   ModifiersContainer,
 } from "./styles";
 

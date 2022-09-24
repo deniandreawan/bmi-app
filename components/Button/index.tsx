@@ -6,12 +6,10 @@ interface Props {
   onPress: () => void;
 }
 
-function Button({ children, onPress }: Props) {
+export function Button({ children, onPress }: Props) {
   return (
     <CalculateButton onPress={onPress}>
       <CalculateButtonText>{children}</CalculateButtonText>
     </CalculateButton>
   );
 }
-
-export default Button;

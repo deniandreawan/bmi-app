@@ -3,16 +3,6 @@ import Slider from "@react-native-community/slider";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { colors } from "../../constants";
 
-const SectionHorizontalStyles = `\
-flex-direction: row;
-justify-content: space-between
-`;
-
-export const Section = styled.View<{ horizontal: boolean }>`
-  margin-bottom: 15px;
-  ${({ horizontal }) => horizontal && SectionHorizontalStyles}
-`;
-
 export const GenderMaleIcon = styled(MaterialCommunityIcons).attrs<{
   focus: boolean;
 }>(({ focus }) => ({
@@ -35,28 +25,20 @@ export const GenderFemaleIcon = styled(MaterialCommunityIcons).attrs<{
 
 export const Label = styled.Text<{ focus: boolean }>`
   text-transform: uppercase;
-  font-weight: bold;
+  font-family: "Poppins_700Bold";
   font-size: 16px;
   color: ${({ focus }) => (focus ? colors.active : colors.inactive)};
 `;
 
-export const Range = styled(Slider).attrs({
-  thumbTintColor: colors.secondary,
-  minimumTrackTintColor: colors.white,
-  maximumTrackTintColor: colors.gray,
-})`
-  width: 100%;
-  margin: 20px 0 20px 0;
-`;
-
 export const H1 = styled.Text`
   font-size: 48px;
-  font-weight: bold;
+  font-family: "Poppins_700Bold";
   color: ${colors.white};
 `;
 
 export const H6 = styled.Text`
   font-size: 16px;
+  font-family: "Poppins_600SemiBold";
   color: ${colors.gray};
 `;
 
