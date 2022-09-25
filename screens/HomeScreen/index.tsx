@@ -7,7 +7,7 @@ import {
   Section,
   Range,
 } from "../../components";
-import { RootStackScreenProps } from "../../types";
+import { RootTabScreenProps } from "../../types";
 import { useBMI } from "../../store/bmi";
 import {
   Label,
@@ -18,7 +18,7 @@ import {
   ModifiersContainer,
 } from "./styles";
 
-function HomeScreen({ navigation }: RootStackScreenProps<"Home">) {
+function HomeScreen({ navigation }: RootTabScreenProps<"Calculator">) {
   const {
     gender,
     height,
@@ -33,7 +33,7 @@ function HomeScreen({ navigation }: RootStackScreenProps<"Home">) {
   } = useBMI();
 
   return (
-    <Wrapper>
+    <Wrapper edges={["right", "top", "left"]}>
       <Container>
         <Section horizontal>
           <Card onPress={() => setGender(0)}>

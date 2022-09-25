@@ -4,8 +4,9 @@ import {
   TransitionPresets,
 } from "@react-navigation/stack";
 import { colors } from "../constants";
-import { HomeScreen, ResultScreen } from "../screens";
+import { ResultScreen } from "../screens";
 import { RootStackParamList } from "../types";
+import { TabBar } from "./TabBar";
 
 const Stack = createStackNavigator<RootStackParamList>();
 
@@ -18,7 +19,7 @@ const screenOptions = {
 function RootNavigator() {
   return (
     <Stack.Navigator screenOptions={screenOptions}>
-      <Stack.Screen name="Home" component={HomeScreen} />
+      <Stack.Screen name="Root" component={TabBar} />
       <Stack.Screen name="Result" component={ResultScreen} />
     </Stack.Navigator>
   );
